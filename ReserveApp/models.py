@@ -59,7 +59,7 @@ class Reserve(models.Model):
         verbose_name_plural = 'Reserves'
 
     def __str__(self):
-        return 'usuario:{user}- cancha: {field_name} - fecha:{reserve_date}'.format(
+        return 'usuario: {user} - cancha: {field_name} - fecha: {reserve_date}'.format(
             user=self.user_name,
             field_name=self.field_name,
             reserve_date=self.reserve_date,

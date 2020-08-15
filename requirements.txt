@@ -1,1 +1,7 @@
 Django==3.1
+django-bootstrap4
+schedule
+django-scheduler
+django-bower
+django-debug-toolbar
+requests
